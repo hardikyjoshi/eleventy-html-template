@@ -7,6 +7,8 @@ module.exports = function (eleventyConfig) {
       output: "_site",
       include: "includes",
     },
+    // markdownTemplateEngine: 'njk',
+    templateFormats: ["html","njk","md"],
     passthroughFileCopy: true,
   };
 };
