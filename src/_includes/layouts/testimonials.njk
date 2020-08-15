@@ -1,0 +1,30 @@
+---
+layout: layouts/simple.njk
+---
+
+{{content | safe}}
+
+{% block postContent %}
+    <div class="testimonial-area spb">
+        <div class="container">
+            <div class="testimonial-slider bordered">
+                {% for testimonial in collections.testimonials %}
+                    <div class="single-slide">
+                        <div class="inner">
+                            <p>{{ testimonial.data.description }}</p>
+                            <div class="client-info">
+                                <div class="client-img">
+                                    <img src="{{ testimonial.data.clientImage }}" alt="client">
+                                </div>
+                                <div class="client-data">
+                                    <h4>{{ testimonial.data.clientName }}</h4>
+                                    <span>{{ testimonial.data.designation }}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock postContent %}
