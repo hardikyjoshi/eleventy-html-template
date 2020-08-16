@@ -33,16 +33,16 @@ googleMap: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43546.861653177
                 <form name="contact-page" action="#" class="contact-form" netlify>
                     <div class="row">
                         <div class="col-lg-6">
-                            <input type="text" placeholder="Name">
+                            <input name="name" type="text" placeholder="Name">
                         </div>
                         <div class="col-lg-6">
-                            <input type="email" placeholder="Email">
+                            <input name="email" type="email" placeholder="Email">
                         </div>
                         <div class="col-lg-12">
-                            <input type="text" placeholder="Subject">
+                            <input name="subject" type="text" placeholder="Subject">
                         </div>
                         <div class="col-lg-12">
-                            <textarea placeholder="Message"></textarea>
+                            <textarea name="message" placeholder="Message"></textarea>
                         </div>
                         <div class="col-lg-12">
                             <input class="button" type="submit" value="Send Message">
