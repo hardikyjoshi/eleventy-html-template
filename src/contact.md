@@ -30,7 +30,7 @@ googleMap: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43546.861653177
                 </div>
             </div>
             <div class="col-md-7">
-                <form action="#" class="contact-form">
+                <form name="contact-page" action="#" class="contact-form" netlify>
                     <div class="row">
                         <div class="col-lg-6">
                             <input type="text" placeholder="Name">
