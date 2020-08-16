@@ -1,8 +1,5 @@
 ---
 layout: layouts/simple.njk
-title: About Us
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus asperiores velit placeat molestiae recusandae?
-backgroundImage: /assets/img/page-title.jpg
 ---
 
 ### USA’s most trusted 3D and graphic designing studio, a very passionate team inside.

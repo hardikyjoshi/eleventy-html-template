@@ -1,8 +1,5 @@
 ---
 layout: base.njk
-title: Contact
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus asperiores velit placeat molestiae recusandae?
-backgroundImage: /assets/img/page-title.jpg
 ---
 
 <div class="contact-area sp">
